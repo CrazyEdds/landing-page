@@ -109,7 +109,7 @@ button {
     border-radius: 8px;
     width: 10rem;
     height: 10rem;
-    border: 0.125rem solid royalblue;
+    border: 0.125rem solid #3882f6;
     margin-bottom: 0.5rem;
 }
 
@@ -139,9 +139,39 @@ button {
     display: flex;
     flex-direction: column;
     padding: 3rem 0;
+    gap: 1rem;
 }
 
 .third-author {
     align-self: flex-end;
     font-weight: bold;
+}
+
+
+
+.forth-element {
+    background-color: #3882f6;
+    color: white;
+    width: 81%;
+    margin: 3rem auto;
+    padding: 2rem 5rem;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.forth-button {
+    border-color: white
+}
+
+.forth-heading {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.forth-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.125rem;
 }
