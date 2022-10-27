@@ -28,7 +28,13 @@
 }
 
 .wide {
+    width: 81%;
+}
+
+.wide-two {
     width: 66%;
+    display: flex;
+    flex-direction: column;
 }
 
 .top {
@@ -70,11 +76,46 @@
 
 button {
     border-radius: 8px;
-    background-color: royalblue;
-    border: 1px solid royalblue;
+    background-color: #3882f6;
+    border: 1px solid #3882f6;
     font-size: 1rem;
     color: white;
     padding: 1rem 1rem;
     width: 7rem;
 }
 
+
+
+.second-element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.second-element-header {
+    font-weight: bolder;
+    text-align: center;
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    border-radius: 8px;
+    width: 10rem;
+    height: 10rem;
+    border: 0.125rem solid royalblue;
+    margin-bottom: 0.5rem;
+}
+
+.box-container {
+    width: 10rem;
+}
+
+.box-subtitle {
+    text-align: center;
+}
