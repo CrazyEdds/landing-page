@@ -175,3 +175,10 @@ button {
     flex-direction: column;
     gap: 0.125rem;
 }
+
+footer {
+    text-align: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 2rem 0;
+}
